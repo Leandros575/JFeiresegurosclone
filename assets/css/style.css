@@ -1,0 +1,91 @@
+*{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: Arial, Helvetica, Opens sans-serif;}
+nav {list-style: none;}
+a {text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:houve {opacity: 1;}
+body {width: 100%; height: 100%; margin: 0%;}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+header .row {
+    position: fixed;
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    height: 73px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+header .row .col nav {
+    display: flex;
+    padding: 0 20 px;
+    align-items: center;
+
+}
+
+header .row .col {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px 0px 0px 68px;
+}
+
+header .row .col img {
+    height: 31px;
+    margin: 0px 0px 0px -11px;
+}
+
+header li {
+    margin: 0px 15px;
+}
+
+header .row .col li .Home {
+    line-height: 1.25;
+    font-size: 1rem;
+    color: #22aaba;
+    letter-spacing: -0.01em;
+    font-weight: 800;
+}
+
+header .row .col li .AJFreire  {
+    line-height: 1.25;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    font-weight: 800;
+    color: #22aaba;
+}
+
+header .row .col li .Seguros {
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    font-weight: 800;
+    color: #22aaba;
+}
+
+header .row .col li .Formularios {
+    line-height: 1.25;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    font-weight: 800;
+    color: #22aaba;
+}
+
+header .row .col li .Contato {
+    line-height: 1.25;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    font-weight: 800;
+    color:#22aaba;
+}
+
+.cnpj {
+    padding: 65px 0px 0px 0px;
+}
+
