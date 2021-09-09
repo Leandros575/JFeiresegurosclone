@@ -9,14 +9,17 @@ body {width: 100%; height: 100%; margin: 0%;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
     }
 
+/* inicio da sessão header */
+
 header .row {
-    position: fixed;
+    position: relative;
     display: flex;
     list-style: none;
     gap: 32px;
-    height: 73px;
+    height: 80px;
     align-items: center;
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -26,7 +29,8 @@ header .row .col nav {
     display: flex;
     padding: 0 20 px;
     align-items: center;
-
+    width: 100%;
+    justify-content: flex-end;
 }
 
 header .row .col {
@@ -37,7 +41,7 @@ header .row .col {
 }
 
 header .row .col img {
-    height: 31px;
+    height: 62px;
     margin: 0px 0px 0px -11px;
 }
 
@@ -47,45 +51,102 @@ header li {
 
 header .row .col li .Home {
     line-height: 1.25;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #22aaba;
     letter-spacing: -0.01em;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 header .row .col li .AJFreire  {
     line-height: 1.25;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: -0.01em;
-    font-weight: 800;
+    font-weight: 600;
     color: #22aaba;
 }
 
 header .row .col li .Seguros {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.25;
     letter-spacing: -0.01em;
-    font-weight: 800;
+    font-weight: 600;
     color: #22aaba;
 }
 
 header .row .col li .Formularios {
     line-height: 1.25;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: -0.01em;
-    font-weight: 800;
+    font-weight: 600;
     color: #22aaba;
 }
 
 header .row .col li .Contato {
     line-height: 1.25;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: -0.01em;
-    font-weight: 800;
+    font-weight: 600;
     color:#22aaba;
 }
 
+/*fim da sessão header */ 
+
+
+/* inicio da sessão cnpj*/
+
 .cnpj {
-    padding: 65px 0px 0px 0px;
+  height: 500px;
+  background: url(/assets/img/bannerjf.png) no-repeat;
+  background-size: 100%;
+  width: 100%;
 }
 
+/* fim da sessão cnpj*/
+
+/* inicio da sessão pj */ 
+
+.pj {
+padding: 0px 0px 0px 0px;
+margin: -119px 0px 0px 0px;
+width: 100%;
+}
+
+.pj .container article {
+    display: flex;
+    background-color: #003d96;
+    width: 150%;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.pj .container article .row {
+    width: 100%;
+    padding: 0px 0px 0px 60px;
+}
+
+.pj .container article .coltex {
+}
+
+
+
+.pj .container article .coltex h1 {
+    font-size: 30px;
+    padding: 0px 0px 0px 30px;
+    color: #ffff;
+    margin: 30px 80px 41px 10px;
+    width: 537px;
+    
+}
+
+.pj .container article .colform{
+    padding: 30px 60px 0px 0px;
+}
+
+.pj .container article .colform input {
+    width: 100%;
+    padding: 0px 0px 3px 0px;
+    margin: 4px 154px 15px 0px;
+}
+
+/* fim da sessão pj */ 
