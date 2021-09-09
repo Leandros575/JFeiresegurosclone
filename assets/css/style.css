@@ -115,7 +115,7 @@ width: 100%;
     display: flex;
     background-color: #003d96;
     width: 150%;
-    height: 500px;
+    height: 300px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -147,6 +147,14 @@ width: 100%;
     width: 100%;
     padding: 0px 0px 3px 0px;
     margin: 4px 154px 15px 0px;
+}
+
+.pj .container article .colform button {
+    padding: 12px 17px 15px 15px;
+    border-radius: 12%;
+    background-color: #fec200;
+    border: none;
+    margin: 4px 2px;
 }
 
 /* fim da sessão pj */ 
