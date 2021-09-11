@@ -135,7 +135,7 @@ width: 100%;
     padding: 0px 0px 0px 30px;
     color: #ffff;
     margin: 30px 80px 41px 10px;
-    width: 537px;
+    width: 574px;
     
 }
 
@@ -158,3 +158,42 @@ width: 100%;
 }
 
 /* fim da sessão pj */ 
+
+
+/* inicio da sessão cards */ 
+
+.cards .row h1 {
+padding: 60px 0px 47px 0px;
+color: #009ad8;
+letter-spacing: 1.1px;
+font-size: 32px;
+width: 1175px;
+}
+
+.cards .container article {
+
+}
+
+.cards .container .row  {
+width: 100%;
+}
+
+.cards .container .row .col {
+display: flex;
+justify-content: center;
+}
+
+.cards .container .row .col card {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+.cards .container .row .col card img {
+    border: solid;
+}
+
+
+
+
+/* fim da sessão cards */ 
