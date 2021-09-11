@@ -132,11 +132,10 @@ width: 100%;
 
 .pj .container article .coltex h1 {
     font-size: 30px;
-    padding: 0px 0px 0px 30px;
     color: #ffff;
-    margin: 30px 80px 41px 10px;
+    margin: 30px 30px 41px 1px;
     width: 574px;
-    
+    padding: 0px 134px 0px 0px;
 }
 
 .pj .container article .colform{
@@ -157,17 +156,33 @@ width: 100%;
     margin: 4px 2px;
 }
 
+.pj .container .row .coltex .epj {
+    color: #ffff;
+    font-weight: 780;
+}
+
+.pj .container .row .coltex .melhor {
+    color: #ffff;
+    font-weight: 780;
+}
+
+.pj .container .row .coltex .preco {
+    color: #ffff;
+    font-weight: 780;
+}
+
+
 /* fim da sessão pj */ 
 
 
 /* inicio da sessão cards */ 
 
 .cards .row h1 {
-padding: 60px 0px 47px 0px;
-color: #009ad8;
-letter-spacing: 1.1px;
-font-size: 32px;
-width: 1175px;
+    padding: 60px 0px 47px 0px;
+    color: #009ad8;
+    letter-spacing: 1.1px;
+    font-size: 32px;
+    width: 1175px;
 }
 
 .cards .container article {
@@ -175,12 +190,12 @@ width: 1175px;
 }
 
 .cards .container .row  {
-width: 100%;
+    width: 100%;
 }
 
 .cards .container .row .col {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .cards .container .row .col card {
@@ -191,6 +206,57 @@ justify-content: center;
 
 .cards .container .row .col card img {
     border: solid;
+}
+
+/* fim da sessão cards */ 
+
+
+/* inicio da sessão cards */ 
+
+.vantagens .container .rowtitulo .coltitulo h1 {
+    color: #003d96;
+    border-bottom: solid 7px #01b47d;
+    padding: 0px 80px 10px 80px;
+    margin: 0px 90px 0px 90px;
+    font-size: 29px;
+    font-weight: 750;
+    letter-spacing: 4px;
+    height: 80px;
+}
+
+.vantagens .container .rowtitulo .coltitulo p {
+    color: #003d96;;
+    padding: 0px 80px 10px 80px;
+    margin: 20px 90px 0px 90px;
+    font-size: 21px;
+    font-weight: 750;
+}
+.vantagens .container .rowtitulo {
+    width: 100%;
+    padding: 0px 80px 10px 80px;
+    margin: 0px 0px 0px 0px;
+}
+
+.vantagens .container .rowtitulo .coltitulo {
+width: 100%;
+padding: 42px 90px 0px 90px;
+margin: 0px 0px 0px 0px;
+text-align: center;
+}
+
+
+.vantagens .container article {
+width: 100%;
+}
+
+.vantagens .container .row {
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.vantagens .container .row .col {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 
