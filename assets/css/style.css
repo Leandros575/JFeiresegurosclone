@@ -213,6 +213,10 @@ width: 100%;
 
 /* inicio da sessão vantagens */ 
 
+.vantagens {
+
+}
+
 .vantagens .container .rowtitulo .coltitulo h1 {
     color: #003d96;
     border-bottom: solid 7px #01b47d;
@@ -250,14 +254,14 @@ width: 100%;
 }
 
 .vantagens .container .rowaumento {
-    padding: 0px 0px 10px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     display: flex;
 }
 
 .vantagens .container .rowaumento .col {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
     display: table-cell;
     width: 100%;
 }
@@ -266,18 +270,28 @@ width: 100%;
 
 .vantagens .container .rowvalorizacao {
     display: table-cell;
+    padding: 0px 50px 0px 1px;
+    margin: 0px 50px 0px 1px;
 }
 
 .vantagens .container .rowvalorizacao .col {
-
-
+    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
 }
+
+
+
+
+
 
 
 /* fim da sessão vantagens */ 
 
 
-/* inicio da sessão cards */ 
+/* inicio da sessão colmeio */ 
 
-
-/* fim da sessão cards */ 
+.colmeio img {
+    padding: 0px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
+}
+/* fim da sessão colmeio */ 
