@@ -255,7 +255,7 @@ width: 100%;
 
 .vantagens .container .rowaumento {
     padding: 50px 0px 50px 0px;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 50px 65px;
     display: flex;
 }
 
@@ -270,28 +270,157 @@ width: 100%;
 
 .vantagens .container .rowvalorizacao {
     display: table-cell;
-    padding: 0px 50px 0px 1px;
-    margin: 0px 50px 0px 1px;
+    padding: 0px 0px 0px 1px;
+    margin: 0px 0px 0px 1px;
 }
 
 .vantagens .container .rowvalorizacao .col {
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
+}
+
+.vantagens .container .rowaumento .col .cardprodutividade { 
+    width: 100%;
     padding: 0px 50px 0px 0px;
     margin: 0px 50px 0px 0px;
 }
 
+.vantagens .container .rowaumento .col .cardprodutividade h1 { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowaumento .col .cardprodutividade p { 
+    font-size: 20px;
+    font-weight: 500;
+    color: #003d96;
+    letter-spacing: 1.1px;
+}
 
 
+.vantagens .container .rowaumento .col .cardreducao  { 
+    width: 100%;
+    padding: 70px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+.vantagens .container .rowaumento .col .cardreducao h1 { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowaumento .col .cardreducao p { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
 
 
+.vantagens .container .rowaumento .col .cardturnover { 
+    width: 100%;
+    padding: 50px 36px 0px 0px;
+    margin: 50px 0px 0px 70px;
+}
 
+.vantagens .container .rowaumento .col .cardturnover h1 { 
+    font-size: 18px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+    padding: 50px 11px 0px 0px;
+    margin: 50px 22px 0px -45px;
+}
+
+.vantagens .container .rowaumento .col .cardturnover p { 
+    font-size: 17px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+    padding: 25px 0px 0px 0px;
+    margin: 10px 0px 0px -51px;
+}
+
+/* segunda coluna de cards*/ 
+
+.vantagens .container .rowvalorizacao .col .cardvalor { 
+    width: 100%;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+.vantagens .container .rowvalorizacao .col .cardvalor h1 { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowvalorizacao .col .cardvalor p { 
+    font-size: 20px;
+    font-weight: 500;
+    color: #003d96;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowvalorizacao .col .carddiadia  { 
+    width: 100%;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+.vantagens .container .rowvalorizacao .col .carddiadia h1 { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowvalorizacao .col .carddiadia p { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowvalorizacao .col .cardqualidade  { 
+    width: 100%;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+.vantagens .container .rowvalorizacao .col .cardqualidade h1 { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
+
+.vantagens .container .rowvalorizacao .col .cardqualidade p { 
+    font-size: 20px;
+    font-weight: 750;
+    color: #003d96;;
+    letter-spacing: 1.1px;
+}
 
 /* fim da sessão vantagens */ 
 
 
 /* inicio da sessão colmeio */ 
 
+.colmeio {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
 .colmeio img {
-    padding: 0px 50px 0px 50px;
-    margin: 0px 50px 0px 50px;
+    padding: 0px 49px 0px 69px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
 }
 /* fim da sessão colmeio */ 
