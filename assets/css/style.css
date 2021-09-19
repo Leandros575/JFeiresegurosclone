@@ -484,12 +484,13 @@ width: 100%;
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.1px;
+    margin: 0px 0px 36px 0px;
 }
 
 .perguntas .container .row .collista h1 { 
     background-color: #003d96;
     color: #ffff;
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1.1px;
     padding: 20px 49px 20px 69px;
     margin: 0px 0px 0px 0px;
@@ -501,17 +502,23 @@ width: 100%;
     color: #ffff;
     padding: 15px 49px 15px 69px;
     margin: 0px 0px 0px 0px;
-    font-size: 15px;
+    font-size: 21px;
+}
+
+.perguntas .container .row .colvidas {
+    display: grid;
 }
 
 .perguntas .container .row .rowvidas {
-
+    width: 100%;
+    padding: 32px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .perguntas .container .row .colvidas h2 { 
     background-color: #003d96;
     color: #ffff;
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1.1px;
     padding: 20px 49px 20px 69px;
     margin: 0px 0px 0px 0px;
@@ -521,12 +528,13 @@ width: 100%;
 .perguntas .container .row .colvidas p2 { 
     background-color: #22aaba;
     color: #ffff;
-    padding: 15px 82px 15px 42px;
+    padding: 2px 82px 15px 42px;
     margin: 0px 0px 0px 0px;
+    font-size: 21px;
 }
 
 .perguntas .container .row .rowconsulta {
-    padding: 32px 0px 49px 0px;
+    padding: 15px 0px 15px 0px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -538,7 +546,7 @@ width: 100%;
 .perguntas .container .row .colconsulta h3 { 
     background-color: #003d96;
     color: #ffff;
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1.1px;
     padding: 20px 49px 20px 69px;
     margin: 0px 0px 0px 0px;
@@ -553,16 +561,21 @@ width: 100%;
     font-size: 21px;
 }
 
-.perguntas .container .row .rowplanos {
+.perguntas .container .row .rowplanos .colplanos {
+    display: grid;
+}
 
+.perguntas .container .row .rowplanos {
+    padding: 15px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .perguntas .container .row .colplanos h4 { 
     background-color: #003d96;
     color: #ffff;
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1.1px;
-    padding: 0px 49px 0px 69px;
+    padding: 20px 49px 20px 69px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -570,20 +583,27 @@ width: 100%;
 .perguntas .container .row .colplanos p4 { 
     background-color: #22aaba;
     color: #ffff;
-    padding: 0px 49px 0px 69px;
+    padding: 3px 34px 16px 60px;
     margin: 0px 0px 0px 0px;
+    font-size: 19px;
+    letter-spacing: 1.1px;
 }
 
 .perguntas .container .row .rowreembolso {
+    padding: 32px 0px 49px 0px;
+    margin: 0px 0px 0px 0px;
+}
 
+.perguntas .container .row .rowreembolso .colreembolso {
+    display: grid;
 }
 
 .perguntas .container .row .colreembolso h5 { 
     background-color: #003d96;
     color: #ffff;
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1.1px;
-    padding: 0px 49px 0px 69px;
+    padding: 20px 49px 20px 69px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -591,8 +611,38 @@ width: 100%;
 .perguntas .container .row .colreembolso p5 { 
     background-color: #22aaba;
     color: #ffff;
-    padding: 0px 49px 0px 69px;
+    padding: 3px 34px 16px 60px;
     margin: 0px 0px 0px 0px;
+    font-size: 21px;
+    letter-spacing: 0.4px;
 }
 
 /* fim da sessão Perguntas */ 
+
+
+/*inicio da footer */ 
+
+.bnt .container .rowbnt {
+width: 100%;
+}
+
+.bnt .container .rowbnt .colbnt {
+
+}
+
+.bnt .rowbnt .colbnt button {
+    padding: 40px 10px 40px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: #003d96;
+    color: #ffff;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 2.1px;
+}
+
+
+
+
+/*fim footer */ 
+
